@@ -17,15 +17,15 @@ const router = createHashRouter([
     element: <LandingPage />,
   },
   {
-    path: '/privacy101/homepage',
+    path: '/homepage',
     element: <Homepage />,
   },
   {
-    path: '/privacy101/learning-hub',
+    path: '/learning-hub',
     element: <LearningHub />,
   },
   {
-    path: '/privacy101/recommendations',
+    path: '/recommendations',
     element: <Recommendations />,
   }
 ]);
