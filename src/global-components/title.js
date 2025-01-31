@@ -17,12 +17,10 @@ function Title() {
                 </span> 
             </h1>
             <h1 class="secondary-title" >A guide to privacy and security in the digital world</h1>
-            <br/>
             <h1 class="secondary-title" >- Landing Page -</h1>
-            <br />
             <hr />
-            <br />
             <Navigation />
+            <hr />
             <br />
         </div>
     );
