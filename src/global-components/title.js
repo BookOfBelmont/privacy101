@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/title.css";
+import Navigation from "./navigation.jsx"
 
 function Title() {
     return (
@@ -21,7 +22,7 @@ function Title() {
             <br />
             <hr />
             <br />
-            <a href="../pages/learning-hub/learning-hub.js">LEARNING HUB</a>
+            <Navigation />
             <br />
         </div>
     );
