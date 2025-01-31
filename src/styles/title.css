@@ -11,7 +11,7 @@
     height: 1px;
     background-color: var(--light-grey);
     border: none;
-    width: 30rem;
+    max-width: 40rem;
 }
 
 /***********************************************************************/

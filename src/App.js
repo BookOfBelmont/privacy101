@@ -1,28 +1,36 @@
 import './App.css';
-import Title from './components/title';
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import Title from './global-components/title';
+import LandingPage from './pages/landing-page/landing-page.js';
+import LearningHub from './pages/learning-hub/learning-hub.js';
+import Recommendations from './pages/recommendations/recommendations.js';
+import PageNotFound from './global-components/page-not-found.js';
 
-let page = 1;
-let MainApp;
-
-if (page === 1) {
-  MainApp = () => {
-    return <iframe src="https://cryptpad.fr/code/#/2/code/view/PrKlfyiodl35f6mEzpN6MbNyEg8+QzxFFJ2WqJkoGks/p/embed/present/"></iframe>
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <LandingPage />,
+    errorElement: <PageNotFound />,
+  },
+  {
+    path: '/privacy101',
+    element: <LandingPage />,
+  },
+  {
+    path: '/privacy101/learning-hub/',
+    element: <LearningHub />,
+  },
+  {
+    path: '/privacy101/recommendations/',
+    element: <Recommendations />,
   }
-} else if (page === 2) {
-  MainApp = () => {
-    return <h1>page 2 || learning hub</h1>
-  }
-} else if (page === 3) {
-    MainApp = () => {
-      return <h1>page 3 || recommendations</h1>
-    }
-}
+]);
 
 function App() {
   return (
     <div className='App'>
       <Title />
-      <MainApp />
+      <RouterProvider router={router} />
     </div>
   );
 }
