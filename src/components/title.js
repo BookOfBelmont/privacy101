@@ -3,7 +3,7 @@ import "../styles/title.css";
 
 function Title() {
     return (
-        <div>
+        <div class="title">
             <h1 class="primary-title">
 	            <span>
                     <span id="redact">T</span><span id="redact">h</span><span id="redact">e&nbsp;</span>
@@ -18,6 +18,10 @@ function Title() {
             <h1 class="secondary-title" >A guide to privacy and security in the digital world</h1>
             <br/>
             <h1 class="secondary-title" >- Landing Page -</h1>
+            <br />
+            <hr />
+            <br />
+            <br />
         </div>
     );
 }

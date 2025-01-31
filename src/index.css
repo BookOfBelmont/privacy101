@@ -23,7 +23,7 @@ body {
 @property --dark-background {
     syntax: "<color>";
     inherits: false;
-    initial-value: #1f1f1f;
+    initial-value: #212121;
 }
 
 @property --light-background {
@@ -54,4 +54,10 @@ body {
     syntax: "<color>";
     inherits: false;
     initial-value: #1565C0;
+}
+
+@property --light-grey {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #B8B8B8;
 }
