@@ -21,6 +21,7 @@ function Title() {
             <br />
             <hr />
             <br />
+            <a href="../pages/learning-hub/learning-hub.js">LEARNING HUB</a>
             <br />
         </div>
     );
