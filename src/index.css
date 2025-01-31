@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* colours */
+
+body {
+  background-color: var(--dark-background);
+  color: white;
+}
+
+@property --dark-background {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #1f1f1f;
+}
+
+@property --light-background {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #2C2C2C;
+}
+
+@property --dark-purple {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #26242D;
+}
+
+@property --light-purple {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #423F50;
+}
+
+@property --shadow {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #09090B;
+}
+
+@property --link-hover {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #1565C0;
+}
