@@ -21,7 +21,6 @@ function Title() {
             <hr />
             <Navigation />
             <hr />
-            <br />
         </div>
     );
 }
