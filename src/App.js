@@ -1,4 +1,5 @@
 import './App.css';
+import Title from './components/title';
 
 let page = 'landing-page';
 let MainApp;
@@ -12,6 +13,7 @@ if (page === 'landing-page') {
 function App() {
   return (
     <div className='App'>
+      <Title />
       <MainApp className="app" />
     </div>
   );

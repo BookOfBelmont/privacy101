@@ -1,0 +1,33 @@
+/* titles */
+.primary-title {
+    text-align: center;
+}
+.secondary-title {
+    text-align: center;
+    font-size: large;
+}
+
+/***********************************************************************/
+
+/* Title animation adapting to screen size */
+@media (max-width: 1000px) {
+    #singleRedact {
+        filter: blur(10px);
+        transition: filter 0.1s;
+    }
+
+    #singleRedact:hover {
+        filter: blur(0);
+    }
+}
+@media (min-width: 768px) {
+    #redact {
+        filter: blur(10px);
+        transition: filter 10s;
+    }
+
+    #redact:hover {
+        filter: blur(0);
+        transition: filter 0s;
+    }
+}
