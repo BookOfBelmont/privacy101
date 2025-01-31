@@ -1,10 +1,13 @@
 import React from "react";
 import '../../styles/recommendations.css';
+import Title from "../../global-components/title.js";
+import TableOfContents from "./table-of-contents-recommendations.js"
 
 function Recommendations() {
     return (
         <div>
-            <h1>recommendations!!!!!</h1>
+            <Title />
+            <TableOfContents />
         </div>
     );
 }
