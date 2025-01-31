@@ -3,7 +3,7 @@ import '../../styles/table-of-contents.css';
 
 function TableOfContents() {
     return (
-        <div>
+        <div class="table-of-contents">
             <h2 class="contents" >Table of Contents</h2>
             <div class="toc">
                 <p class="toc-1">• <a class="toc-link" href="#tech-concepts" data-href="tech-concepts">Tech concepts</a></p>
@@ -42,57 +42,6 @@ function TableOfContents() {
                 <p class="toc-2">• <a class="toc-link" href="#" data-href="tools">Tools</a></p>
                 <p class="toc-2">• <a class="toc-link" href="#" data-href="otherR">Other</a></p>
             </div>
-
-            <p id="tech-concepts">TECH CONCEPTS TEST BIG BOY DAWG</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
-            <p>TECH CONCEPTS TEST</p>
         </div>
     );
 }

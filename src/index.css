@@ -20,6 +20,15 @@ body {
   color: white;
 }
 
+a {
+  color: var(--link-normal);
+}
+a:hover {
+  color: var(--link-hover);
+
+}
+
+
 @property --dark-background {
     syntax: "<color>";
     inherits: false;
@@ -48,6 +57,12 @@ body {
     syntax: "<color>";
     inherits: false;
     initial-value: #09090B;
+}
+
+@property --link-normal {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #99cfff;
 }
 
 @property --link-hover {

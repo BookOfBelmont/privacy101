@@ -1,0 +1,24 @@
+.table-of-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toc-1 {
+    margin-left: 0;
+}
+.toc-2 {
+    margin-left: 1rem;
+}
+.toc-3 {
+    margin-left: 2rem;
+}
+.toc-4 {
+    margin-left: 3rem;
+}
+.toc-5 {
+    margin-left: 4rem;
+}
+.toc-6 {
+    margin-left: 5rem;
+}
