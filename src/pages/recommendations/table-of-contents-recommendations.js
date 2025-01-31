@@ -4,7 +4,7 @@ import '../../styles/table-of-contents.css';
 function TableOfContents() {
     return (
         <div>
-            <p>test</p>
+            <h1>Recommendations</h1>
         </div>
     );
 }
