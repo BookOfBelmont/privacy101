@@ -1,3 +1,5 @@
 iframe {
     border: none;
+    width: 40rem;
+    height: auto;
   }
