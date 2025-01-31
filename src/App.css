@@ -1,10 +1,3 @@
-
-iframe {
-  width: 100vw;
-  height: 70vh;
-  border: none;
-}
-
 .App {
   display: flex;
   flex-direction: column;
