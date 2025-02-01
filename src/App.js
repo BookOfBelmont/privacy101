@@ -1,7 +1,7 @@
 import './App.css';
 import { createHashRouter, HashRouter, RouterProvider } from 'react-router';
-import LandingPage from './pages/landing-page/landing-page.js';
-import Homepage from './pages/homepage/homepage.js';
+import LandingPage from './pages/landing-page.js';
+import Homepage from './pages/homepage.js';
 import LearningHub from './pages/learning-hub/learning-hub.js';
 import Recommendations from './pages/recommendations/recommendations.js';
 import PageNotFound from './global-components/page-not-found.js';
