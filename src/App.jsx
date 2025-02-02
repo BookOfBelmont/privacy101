@@ -1,10 +1,11 @@
 import './styles/App.css';
 import { createHashRouter, HashRouter, RouterProvider } from 'react-router';
-import LandingPage from './pages/landing-page.js';
-import Homepage from './pages/homepage.js';
-import LearningHub from './pages/learning-hub/learning-hub.js';
-import Recommendations from './pages/recommendations/recommendations.js';
-import PageNotFound from './global-components/page-not-found.js';
+import LandingPage from './pages/landing-page.jsx';
+import Homepage from './pages/homepage.jsx';
+import LearningHub from './pages/learning-hub/learning-hub.jsx';
+import Recommendations from './pages/recommendations/recommendations.jsx';
+import PageNotFound from './global-components/page-not-found.jsx';
+import Favicon from './global-components/favicon.jsx';
 
 const router = createHashRouter([
   {
@@ -27,6 +28,10 @@ const router = createHashRouter([
   {
     path: '/recommendations',
     element: <Recommendations />,
+  },
+  {
+    path: '/favicon',
+    element: <Favicon />,
   }
 ]);
 

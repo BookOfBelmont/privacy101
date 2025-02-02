@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/landing-page.css';
-import Title from "../global-components/title.js";
+import Title from "../global-components/title.jsx";
 
 function LandingPage() {
     return (

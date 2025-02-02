@@ -9,6 +9,7 @@ function Navigation() {
             <NavLink to="/homepage">Homepage</NavLink>
             <NavLink to="/learning-hub">Learning Hub</NavLink>
             <NavLink to="/recommendations">Recommendations</NavLink>
+            <NavLink to="/favicon">Favicon</NavLink>
         </div>
     );
 }
