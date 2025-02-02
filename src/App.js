@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import { createHashRouter, HashRouter, RouterProvider } from 'react-router';
 import LandingPage from './pages/landing-page.js';
 import Homepage from './pages/homepage.js';
