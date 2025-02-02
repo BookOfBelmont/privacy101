@@ -1,13 +1,7 @@
-
-iframe {
-  width: 100vw;
-  height: 70vh;
-  border: none;
-}
-
 .App {
   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 100vw;
   max-height: 100vh;
 }

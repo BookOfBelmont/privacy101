@@ -1,4 +1,8 @@
 /* titles */
+.title {
+    width: 100vw;
+}
+
 .primary-title {
     text-align: center;
 }

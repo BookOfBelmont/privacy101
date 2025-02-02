@@ -1,5 +1,5 @@
-import Title from "../../global-components/title";
-import "../../styles/homepage.css";
+import Title from "../global-components/title";
+import "../styles/homepage.css";
 
 function Homepage() {
     return (
