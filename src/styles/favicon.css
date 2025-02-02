@@ -1,0 +1,8 @@
+.favicon {
+    display: flex;
+    flex-direction: column;
+}
+
+.favicon svg {
+    align-self: center;
+}
