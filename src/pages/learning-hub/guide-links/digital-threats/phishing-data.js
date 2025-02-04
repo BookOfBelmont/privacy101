@@ -1,0 +1,15 @@
+/* tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
+
+export const phishing_data = [
+    {
+        title: "Dangerous Gmail Security Threat Confirmed But Google Won’t Fix It | Forbes",
+        url: "https://www.forbes.com/sites/daveywinder/2025/01/04/gmail-security-threat-confirmed-google-wont-fix-it-heres-why/",
+        tags: [0, 0, 0, 1, 0]
+    },
+    {
+        title: "What to do if you clicked a phishing link | AdGuard",
+        url: "https://adguard.com/en/blog/what-to-do-if-you-clicked-a-phishing-link.html",
+        tags: [0, 0, 1, 0, 0]
+    },
+]
+
