@@ -1,0 +1,358 @@
+
+h1, h2, h3, h4, h5, h6 {
+	border-bottom: 0px !important;
+}
+
+/* titles */
+.title1 {
+	text-align: center;
+}
+.title2 {
+	text-align: center;
+	font-size: large;
+}
+
+
+
+/* section titles */
+h2, .listTitle {
+	text-align: center;
+}
+
+
+
+/* table of contents */
+.tableOfContents {
+	font-size: x-large;
+}
+
+
+
+/* center text */
+.text {
+	text-align: center;
+}
+
+
+
+/* italic text */
+.italic {
+	font-style: italic;
+}
+
+
+
+/* center images */
+media-tag {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+/* topic titles */
+h4, .topic {
+	font-size: large;
+	font-weight: bold;
+}
+
+
+
+/* link hover colour */
+a:hover {
+	color: var(--link-hover);
+}
+
+
+
+/* article added on x text */
+.addedOn {
+	font-style: italic;
+	font-size: small;
+	margin-left:65px;
+}
+
+
+.checklist{
+	max-height: none;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 10px 5px 10px var(--shadow);
+}
+.checklistTitle{
+	font-size: large;
+	font-weight: bold;
+	position: absolute;
+	top: -1.1rem;
+	left: 1rem;
+	background: var(--dark-purple);
+	border: 3px solid var(--light-purple);
+	border-radius: 10px;
+	padding: 5px 20px;
+	box-shadow: 0px 0px 20px var(--shadow);
+}
+.most-important-checklist {
+	border: 2px solid red;
+}
+.second-step-checklist {
+	border: 2px solid yellow;
+}
+.complete-setup-checklist {
+	border: 2px solid blue;
+}
+.free-beginner-checklist {
+	border: 2px solid green;
+}
+.paid-upgrades-checklist {
+	border: 2px solid white;
+}
+
+
+/* purple boxes */
+.purple-box {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 5px 5px 10px var(--shadow);
+	background-color: var(--light-background);
+	border-bottom-color: var(--light-purple);
+}
+.purple-box2 {
+	border: 5px solid var(--light-purple);
+	margin: 1rem;
+}
+
+.purple-title {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: var(--dark-purple);
+}
+.purple-title2 {
+	padding: 1rem;
+	margin: 0;
+}
+
+.purple-content {
+	padding: 30px;
+	border: 5px solid var(--dark-background);
+}
+
+
+
+/* blockquote? */
+blockquote {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 10px 5px 10px var(--shadow);
+}
+
+/***********************************************************************/
+
+/* Title animation adapting to screen size */
+@media (max-width: 1000px) {
+	#singleRedact {
+		filter: blur(10px);
+		transition: filter 0.1s;
+	}
+
+	#singleRedact:hover {
+		filter: blur(0);
+	}
+}
+@media (min-width: 768px) {
+	#redact {
+		filter: blur(10px);
+		transition: filter 10s;
+	}
+
+	#redact:hover {
+		filter: blur(0);
+		transition: filter 0s;
+	}
+}
+
+
+/* collapsibles */
+/***********************************************************************/
+
+
+details {
+	border: 5px solid var(--dark-purple);
+	border-bottom-color: var(--light-purple);
+	box-sizing: border-box;
+	position: relative;
+}
+
+details[open] {
+	max-height: none; /* Set max-height enough to show content */
+	border-color: var(--light-purple);
+}
+
+details[open] span::before {
+	rotate: 90deg;
+	transition: rotate 200ms ease-out;
+	pointer-events: none;
+}
+
+
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	user-select: none; /* supported by Chrome and Opera */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+
+	display: block;
+}
+
+span.spanCollapse {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+	height: 4rem;
+}
+
+span.spanCollapse:hover {
+	cursor: pointer;
+}
+
+span.spanCollapse::before {
+	content: "▶";
+	display: flex;
+	align-items: center;
+	margin-right: 1rem;
+	transition: rotate 200ms ease-out;
+}
+
+
+
+details span:hover {
+	font-weight: 900;
+}
+details[open] span:hover {
+	font-weight: bold;
+}
+
+@keyframes colorChangeF {
+	0% { border-color: var(--dark-purple) var(--dark-purple) var(--light-purple) var(--dark-purple) ; }
+	100% { border-color: var(--light-purple) var(--light-purple) var(--light-purple) var(--light-purple); }
+}
+@keyframes colorChangeR {
+	0% { border-color: var(--light-purple) var(--light-purple) var(--light-purple) var(--light-purple) ; }
+	100% { border-color: var(--dark-purple) var(--dark-purple) var(--light-purple) var(--dark-purple); }
+}
+
+details[open] {
+	animation-name: colorChangeF;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in;
+}
+details {
+	animation-name: colorChangeR;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in;
+}
+
+
+details::details-content {
+	display: block;
+	block-size: 0;
+	overflow: hidden;
+	transition-property: block-size, content-visibility;
+	transition-duration: 0.5s;
+	transition-behavior: allow-discrete;
+}
+
+details[open]::details-content {
+	/* Fallback for browsers that don't support calc-size() function */
+	block-size: auto;
+
+	/* calc-size() function allows transition to height: auto; */
+	block-size: calc-size(auto, size);
+}
+
+
+
+
+/* light */
+@media (prefers-color-scheme: light) {
+	@property --dark-background {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #ffffff;
+	}
+
+	@property --light-background {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #F5F5F5;
+	}
+
+	@property --dark-purple {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #C5C0CC;
+	}
+
+	@property --light-purple {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #7B7693;
+	}
+
+	@property --shadow {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #09090B;
+	}
+
+	@property --link-hover {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #1565C0;
+	}
+}
+
+/* dark */
+@media (prefers-color-scheme: dark) {
+	@property --dark-background {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #1f1f1f;
+	}
+
+	@property --light-background {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #2C2C2C;
+	}
+
+	@property --dark-purple {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #26242D;
+	}
+
+	@property --light-purple {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #423F50;
+	}
+
+	@property --shadow {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #09090B;
+	}
+
+	@property --link-hover {
+		syntax: "<color>";
+		inherits: false;
+		initial-value: #1565C0;
+	}
+}
