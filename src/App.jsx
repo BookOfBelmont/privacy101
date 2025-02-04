@@ -6,6 +6,7 @@ import LearningHub from './pages/learning-hub/learning-hub.jsx';
 import Recommendations from './pages/recommendations/recommendations.jsx';
 import PageNotFound from './global-components/page-not-found.jsx';
 import Favicon from './global-components/favicon.jsx';
+import Footer from './global-components/footer.jsx';
 
 const router = createHashRouter([
   {
@@ -39,6 +40,7 @@ function App() {
   return (
     <div className='App'>
       <RouterProvider router={router} />
+      <Footer />
     </div>
   );
 }
