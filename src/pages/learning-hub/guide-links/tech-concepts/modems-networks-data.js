@@ -1,0 +1,15 @@
+/* tags: ['new', 'exc', 'inst', 'curr', 'vid'] */
+
+export const modems_networks_data = [
+    {
+        title: "Routers vs. Switches vs. Access Points - And More | TechQuickie",
+        url: "https://www.youtube.com/watch?v=Vc16CCAAz7Q",
+        tags: [0, 0, 0, 0, 1]
+    },
+    {
+        title: "Introduction to Routers | Defensive Computing Checklist",
+        url: "https://routersecurity.org/introduction.php",
+        tags: [0, 0, 1, 0, 0]
+    },
+]
+
