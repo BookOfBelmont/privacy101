@@ -1,3 +1,4 @@
+/* tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
 /*
 export const template = [
     {

@@ -1,0 +1,25 @@
+/* tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
+
+export const encryption_data = [
+    {
+        title: "The MOST PRIVATE Messaging Apps | Naomi Brockwell",
+        url: "https://www.youtube.com/watch?v=rTPBqWzjuyo",
+        tags: [0, 1, 1, 0, 1]
+    },
+    {
+        title: "The WORST messaging apps for PRIVACY | Naomi Brockwell",
+        url: "https://www.youtube.com/watch?v=47_3_vaUSIU",
+        tags: [0, 0, 1, 0, 1]
+    },
+    {
+        title: "Most PRIVATE Cloud Storage |Naomi Brockwell",
+        url: "https://www.youtube.com/watch?v=yND3ogYFVp0",
+        tags: [0, 0, 1, 0, 1]
+    },
+    {
+        title: "Don't Use Google For Photo Backup! | Naomi Brockwell",
+        url: "https://www.youtube.com/watch?v=n_kTzu8NEyg",
+        tags: [0, 0, 1, 0, 1]
+    },
+]
+

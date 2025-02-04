@@ -16,9 +16,10 @@ const metadata_data_list = map_data(metadata_data);
 const cookies_data_list = map_data(cookies_data);
 const encryption_data_list = map_data(encryption_data);
 
+
 function TechConcepts() {
     return (
-        <div className="digital-threats">
+        <div className="tech-concepts">
             <h2 id="tech-concepts"><a href="#tech-concepts" class="anchor" ></a>Tech Concepts</h2>
             <h3 class="topic" id="security"><a href="#security" class="anchor" ></a>Security, privacy and anonymity</h3>
             <ul>{security_privacy_anon_data_list}</ul>
@@ -26,6 +27,14 @@ function TechConcepts() {
             <ul>{wireless_connections_data_list}</ul>
             <h3 class="topic" id="modems"><a href="#modems" class="anchor" ></a>Modems, routers, firewalls and networks</h3>
             <ul>{modems_networks_data_list}</ul>
+            <h3 class="topic" id="ips"><a href="#ips" class="anchor" ></a>IP addresses and DNS</h3>
+            <ul>{ip_and_dns_data_list}</ul>
+            <h3 class="topic" id="metadata"><a href="#metadata" class="anchor" ></a>Metadata</h3>
+            <ul>{metadata_data_list}</ul>
+            <h3 class="topic" id="cookies"><a href="#cookies" class="anchor" ></a>Cookies</h3>
+            <ul>{cookies_data_list}</ul>
+            <h3 class="topic" id="encryption"><a href="#encryption" class="anchor" ></a>Encryption</h3>
+            <ul>{encryption_data_list}</ul>
         </div>
     );
 }

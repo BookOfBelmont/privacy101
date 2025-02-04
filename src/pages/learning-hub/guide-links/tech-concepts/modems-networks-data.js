@@ -1,4 +1,4 @@
-/* tags: ['new', 'exc', 'inst', 'curr', 'vid'] */
+/* tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
 
 export const modems_networks_data = [
     {
