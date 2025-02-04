@@ -1,11 +1,29 @@
-/* tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
+/* link tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
 /*
 export const template = [
     {
         title: "",
-        url_desx: "",
         url: "",
         tags: [0, 0, 1, 0, 1]
+    },
+]
+export const template = [
+    {
+        title: "",
+        url_des: "",
+        url: "",
+    },
+]
+/* reco card tags: ['open source', 'recently audited', 'e1ee', 'cross-platform', 'free/paid/freemium'] */
+/*
+export const template = [
+    {
+        title: "",
+        logo_src: "",
+        tags: [0, 0, 0, 0, 0],
+        talking_points = [
+        "",
+        ],
     },
 ]
 */
@@ -20,6 +38,13 @@ export function map_data(datum) {
 }
 
 export function map_resource_data(datum) {
+    return datum.map((data) =>
+        <div className="list-item-prefix">
+            <li><a href={data.url} target="_blank" rel="noopener noreferrer">{data.title}</a>{data.link_desc}</li>
+        </div>
+    );
+}
+export function map_card_data(datum) {
     return datum.map((data) =>
         <div className="list-item-prefix">
             <li><a href={data.url} target="_blank" rel="noopener noreferrer">{data.title}</a>{data.link_desc}</li>

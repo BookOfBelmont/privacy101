@@ -8,6 +8,23 @@ function Recommendations() {
         <div>
             <Title />
             <TableOfContents />
+            <div>
+                {/*before we start*/}
+            </div>
+            <div>{/*recommendations*/}
+                <div> {/*big checklist*/}
+                    {/*most important checklist*/}
+                    {/*second step checklist*/}
+                    {/*stealthy digital jedi*/}
+                </div>
+                <div> {/*no-commitment checklist*/}
+                    {/*free beginner checklist*/}
+                    {/*paid upgrades*/}
+                </div>
+                {/*hardware*/}
+                {/*tips and tricks*/}
+            </div>
+            {/*app resources*/}
         </div>
     );
 }
