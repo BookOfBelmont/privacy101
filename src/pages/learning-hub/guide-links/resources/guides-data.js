@@ -1,0 +1,45 @@
+/* tags: ['new', 'excellent', 'instructional', 'current', 'video'] */
+
+export const guides_data = [
+    {
+        title: "A Defensive Computing Checklist",
+        link_desc: "",
+        url: "https://defensivecomputingchecklist.com/index.php",
+    },
+    {
+        title: "Digital Breakup",
+        link_desc: "| empowering women to take control of their devices, ensure digital freedom and enable them to be online safely",
+        url: "https://refugetechsafety.org/digitalbreakup/",
+    },
+    {
+        title: "Digital Rights Bytes | EFF",
+        link_desc: "| get honest answers to the questions that have been bugging you about technology",
+        url: "https://www.digitalrightsbytes.org/",
+    },
+    {
+        title: "Electronic Frontier Foundation: Surveillance Self Defence",
+        link_desc: "| tips, tools and how-tos for safer online communications",
+        url: "https://ssd.eff.org/",
+    },
+    {
+        title: "Privacy Guides",
+        link_desc: "| online privacy guide",
+        url: "https://www.privacyguides.org/en/",
+    },
+    {
+        title: "The Hitchhiker’s Guide to Online Anonymity",
+        link_desc: " | comprehensive guide to anonymity",
+        url: "https://anonymousplanet.org/guide.html",
+    },
+    {
+        title: "The New Oil",
+        link_desc: "| how to improve your online security posture based on three different levels of risk",
+        url: "https://thenewoil.org/en/",
+    },
+    {
+        title: "The Wired Guide to Digital Security",
+        link_desc: "",
+        url: "https://www.wired.com/2017/12/digital-security-guide/",
+    },
+]
+
