@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 
 function Navigation() {
     return (
-        <div class="nav-bar">
+        <div className="nav-bar">
             <NavLink to="/">Landing Page</NavLink>
             <NavLink to="/homepage">Homepage</NavLink>
             <NavLink to="/learning-hub">Learning Hub</NavLink>

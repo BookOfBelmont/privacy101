@@ -22,22 +22,22 @@ const data_broker_maintenance_data_list = map_data(data_broker_maintenance_data)
 function Solutions() {
     return (
         <div>
-            <h2 id="solutions"><a href="#solutions" class="anchor" ></a>Solutions and How They Work</h2>
-            <h3 class="topic" id="passwords"><a href="#passwords" class="anchor" ></a>Passwords</h3>
+            <h2 id="solutions"><a href="#solutions" className="anchor" ></a>Solutions and How They Work</h2>
+            <h3 className="topic" id="passwords"><a href="#passwords" className="anchor" ></a>Passwords</h3>
             <ul>{passwords_data_list}</ul>
-            <h3 class="topic" id="2fa"><a href="#2fa" class="anchor" ></a>2FA, MFA, passkeys and security keys</h3>
+            <h3 className="topic" id="2fa"><a href="#2fa" className="anchor" ></a>2FA, MFA, passkeys and security keys</h3>
             <ul>{mfa_data_list}</ul>
-            <h3 class="topic" id="encryption2"><a href="#encryption2" class="anchor" ></a>Encryption?</h3>
+            <h3 className="topic" id="encryption2"><a href="#encryption2" className="anchor" ></a>Encryption?</h3>
             <ul>{encryption_data_list}</ul>
-            <h3 class="topic" id="browsers"><a href="#browsers" class="anchor" ></a>Browsers and search engines</h3>
+            <h3 className="topic" id="browsers"><a href="#browsers" className="anchor" ></a>Browsers and search engines</h3>
             <ul>{browsers_and_search_data_list}</ul>
-            <h3 class="topic" id="vpns"><a href="#vpns" class="anchor" ></a>VPNs, DNS and ad blockers</h3>
+            <h3 className="topic" id="vpns"><a href="#vpns" className="anchor" ></a>VPNs, DNS and ad blockers</h3>
             <ul>{vpns_data_list}</ul>
-            <h3 class="topic" id="firewalls"><a href="#firewalls" class="anchor" ></a>Firewalls, antivirus (not) and networking</h3>
+            <h3 className="topic" id="firewalls"><a href="#firewalls" className="anchor" ></a>Firewalls, antivirus (not) and networking</h3>
             <ul>{firewalls_and_networking_data_list}</ul>
-            <h3 class="topic" id="aliases"><a href="#aliases" class="anchor" ></a>Aliases</h3>
+            <h3 className="topic" id="aliases"><a href="#aliases" className="anchor" ></a>Aliases</h3>
             <ul>{aliases_data_list}</ul>
-            <h3 class="topic" id="dataBrokerM"><a href="#dataBrokerM" class="anchor" ></a>Data broker maintenance</h3>
+            <h3 className="topic" id="dataBrokerM"><a href="#dataBrokerM" className="anchor" ></a>Data broker maintenance</h3>
             <ul>{data_broker_maintenance_data_list}</ul>
         </div>
     );

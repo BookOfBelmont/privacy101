@@ -12,12 +12,12 @@ const other_data_list = map_resource_data(other_data);
 function Resources() {
     return (
         <div>
-            <h2 id="resources"><a href="#resources" class="anchor" ></a>Resources</h2>
-            <h3 class="topic" id="guides"><a href="#guides" class="anchor" ></a>Guides</h3>
+            <h2 id="resources"><a href="#resources" className="anchor" ></a>Resources</h2>
+            <h3 className="topic" id="guides"><a href="#guides" className="anchor" ></a>Guides</h3>
             <ul>{guides_data_list}</ul>
-            <h3 class="topic" id="tools"><a href="#tools" class="anchor" ></a>Tools</h3>
+            <h3 className="topic" id="tools"><a href="#tools" className="anchor" ></a>Tools</h3>
             <ul>{tools_data_list}</ul>
-            <h3 class="topic" id="otherR"><a href="#otherR" class="anchor" ></a>Other</h3>
+            <h3 className="topic" id="otherR"><a href="#otherR" className="anchor" ></a>Other</h3>
             <ul>{other_data_list}</ul>
         </div>
     );

@@ -5,7 +5,7 @@ function Homepage() {
     return (
         <div>
             <Title />
-            <div class="homepage">
+            <div className="homepage">
                 <h1>homepage</h1>
             </div>
         </div>
