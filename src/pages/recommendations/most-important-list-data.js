@@ -3,11 +3,12 @@
 export const most_important_list_data = [
     {
         title: "",
-        logo_src: "",
+        logo_src: [
+            "",
+        ],
         tags: [0, 0, 0, 0, 0],
         talking_points: [
-        "",
+            "",
         ],
     },
 ]
-
