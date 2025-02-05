@@ -1,6 +1,9 @@
-export const logo_card_db = [
+export const recommendation_db = [
     {
         title: "",
+        url: [
+            "",
+        ],
         logo_src: [
             "",
         ],

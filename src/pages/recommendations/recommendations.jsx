@@ -12,19 +12,21 @@ function Recommendations() {
             <div>
                 <BeforeWeStart />
             </div>
-            <div>{/*recommendations*/}
-                <div> {/*big checklist*/}
-                    {/*most important checklist*/}
-                    {/*second step checklist*/}
-                    {/*stealthy digital jedi*/}
-                </div>
-                <div> {/*no-commitment checklist*/}
-                    {/*free beginner checklist*/}
-                    {/*paid upgrades*/}
-                </div>
-                {/*hardware*/}
-                {/*tips and tricks*/}
-            </div>
+            <h2 id="recommendations"><a href="#recommendations"></a>Recommendations</h2>
+            <h3 class="listTitle" id="big"><a href="#big"></a>The big checklist</h3>
+
+            {/*most important checklist*/}
+
+            {/*second step checklist*/}
+            
+            {/*stealthy digital jedi*/}
+            
+            {/*free beginner checklist*/}
+            
+            {/*paid upgrades*/}
+            
+            {/*hardware*/}
+            {/*tips and tricks*/}
             {/*app resources*/}
         </div>
     );
