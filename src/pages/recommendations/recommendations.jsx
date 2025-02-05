@@ -2,6 +2,7 @@ import React from "react";
 import '../../styles/recommendations.css';
 import Title from "../../global-components/title.jsx";
 import TableOfContents from "./table-of-contents-recommendations.jsx"
+import BeforeWeStart from "./before-we-start.jsx";
 
 function Recommendations() {
     return (
@@ -9,7 +10,7 @@ function Recommendations() {
             <Title />
             <TableOfContents />
             <div>
-                {/*before we start*/}
+                <BeforeWeStart />
             </div>
             <div>{/*recommendations*/}
                 <div> {/*big checklist*/}
