@@ -3,6 +3,7 @@ import '../../styles/recommendations.css';
 import Title from "../../global-components/title.jsx";
 import TableOfContents from "./table-of-contents-recommendations.jsx"
 import BeforeWeStart from "./before-we-start.jsx";
+import MostImportantChecklist from "./most-important-checklist.jsx";
 
 function Recommendations() {
     return (
@@ -15,7 +16,7 @@ function Recommendations() {
             <h2 id="recommendations"><a href="#recommendations"></a>Recommendations</h2>
             <h3 class="listTitle" id="big"><a href="#big"></a>The big checklist</h3>
 
-            {/*most important checklist*/}
+            <MostImportantChecklist />
 
             {/*second step checklist*/}
             

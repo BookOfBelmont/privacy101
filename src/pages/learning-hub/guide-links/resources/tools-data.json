@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Bitwarden password tester",
+        "link_desc": "(unreliable)",
+        "url": "https://bitwarden.com/password-strength/"
+    },
+    {
+        "title": "CheckShortURL",
+        "link_desc": "| check safety of short URL links",
+        "url": "https://checkshorturl.com/"
+    },
+    {
+        "title": "Consumer Reports",
+        "link_desc": "security planner",
+        "url": "https://securityplanner.consumerreports.org/"
+    },
+    {
+        "title": "Cover Your Tracks",
+        "link_desc": "| see how trackers view your browser",
+        "url": "https://coveryourtracks.eff.org/learn"
+    },
+    {
+        "title": "Dangerzone",
+        "link_desc": "| convert dangerous files into safe ones",
+        "url": "https://dangerzone.rocks/"
+    },
+    {
+        "title": "DNS Leak Test",
+        "link_desc": "",
+        "url": "https://www.dnsleaktest.com/"
+    },
+    {
+        "title": "have i been pwned",
+        "link_desc": "| check if your email or password is in a data breach",
+        "url": "https://haveibeenpwned.com/"
+    },
+    {
+        "title": "ID Ransomware",
+        "link_desc": "| identify ransomware in files",
+        "url": "https://id-ransomware.malwarehunterteam.com/"
+    },
+    {
+        "title": "Malwarebytes Digital Footprint",
+        "link_desc": "| has your personal data been exposed? Scan your email to see your digital footprint (good tool, but don't use their other services)",
+        "url": "https://www.malwarebytes.com/digital-footprint"
+    },
+    {
+        "title": "Metadada2Go",
+        "link_desc": "| check metadata in files",
+        "url": "https://www.metadata2go.com/"
+    },
+    {
+        "title": "redact.dev",
+        "link_desc": "| clean up your old posts from services like Twitter, Reddit, Facebook, Discord, and more",
+        "url": "https://redact.dev/"
+    },
+    {
+        "title": "Router Security Guide",
+        "link_desc": "",
+        "url": "https://routersecurity.org/index.php"
+    },
+    {
+        "title": "They see your photos",
+        "link_desc": "| what google sees in your photos",
+        "url": "https://theyseeyourphotos.com/"
+    }
+]
+

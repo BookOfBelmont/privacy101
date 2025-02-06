@@ -1,6 +1,11 @@
-export const recommendation_db = [
+/* reco card tags: ['open source', 'recently audited', 'e1ee', 'cross-platform', 'free/paid/freemium'] */
+
+export const company_card_db = [
     {
         title: "",
+        category: [
+            "",
+        ],
         url: [
             "",
         ],

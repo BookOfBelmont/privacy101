@@ -1,12 +1,12 @@
 import { map_data } from "../../../../global-components/map-data";
-import { passwords_data } from "./passwords-data";
-import { mfa_data } from "./mfa-data";
-import { encryption_data } from "./encryption-data";
-import { browsers_and_search_data } from "./browsers-and-search-data";
-import { vpns_data } from "./vpns-data";
-import { firewalls_and_networking_data } from "./firewalls-and-networking-data";
-import { aliases_data } from "./aliases-data";
-import { data_broker_maintenance_data } from "./data-broker-maintenance-data";
+import passwords_data from "./passwords-data";
+import mfa_data from "./mfa-data";
+import encryption_data from "./encryption-data";
+import browsers_and_search_data from "./browsers-and-search-data";
+import vpns_data from "./vpns-data";
+import firewalls_and_networking_data from "./firewalls-and-networking-data";
+import aliases_data from "./aliases-data";
+import data_broker_maintenance_data from "./data-broker-maintenance-data";
 
 
 const passwords_data_list = map_data(passwords_data);
