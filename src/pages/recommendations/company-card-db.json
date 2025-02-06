@@ -1,0 +1,19 @@
+[
+    {
+        "title": "proton-mail",
+        "category": [
+            "email"
+        ],
+        "url": [
+            "https://proton.me/mail"
+        ],
+        "logo_src": [
+            "../../logos-svg/proton-mail-wordmark.svg"
+        ],
+        "tags": [1, 1, 1, 1, 1],
+        "talking_points": [
+            "Includes a calendar, cloud storage, password manager, and VPN with all plans"
+        ]
+    }
+]
+
