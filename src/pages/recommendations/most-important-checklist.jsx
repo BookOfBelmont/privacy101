@@ -1,4 +1,10 @@
-import { company_card_db } from "./company-card-db";
+import { map_card_data } from "../../global-components/map-data";
+import company_card_db from "./company-card-db.json";
+
+
+const company_card_db_list = map_card_data(company_card_db);
+
+
 
 function MostImportantChecklist() {
     return (
@@ -8,6 +14,7 @@ function MostImportantChecklist() {
                 <p class="topic purple-title purple-title2">Harden (secure) devices, apps and accounts</p>
                 <div class="purple-content">
                     <li>Use strong passwords and keep track of them with a password manager</li>
+                    <ul>{company_card_db_list}</ul>
                     <li>Use multi-factor authentication</li>
                     <li>Keep devices and apps updated</li>
                     <li>SIM password</li>
