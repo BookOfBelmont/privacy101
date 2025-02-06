@@ -1,12 +1,12 @@
 import { map_data } from "../../../../global-components/map-data";
-import { data_breaches_data } from "./data-breaches-data";
-import { data_brokers_data } from "./data-brokers-data";
-import { fingerprinting_data } from "./fingerprinting-data";
-import { malware_data } from "./malware-data";
-import { phishing_data } from "./phishing-data";
-import { sim_swapping_data } from "./sim-swapping-data";
-import { social_engineering_data } from "./social-engineering-data";
-import { trackers_mass_surveillence_data } from "./trackers-mass-surveillence-data";
+import data_breaches_data from "./data-breaches-data";
+import data_brokers_data from "./data-brokers-data";
+import fingerprinting_data from "./fingerprinting-data";
+import malware_data from "./malware-data";
+import phishing_data from "./phishing-data";
+import sim_swapping_data from "./sim-swapping-data";
+import social_engineering_data from "./social-engineering-data";
+import trackers_mass_surveillence_data from "./trackers-mass-surveillence-data";
 
 
 const data_breaches_data_list = map_data(data_breaches_data);

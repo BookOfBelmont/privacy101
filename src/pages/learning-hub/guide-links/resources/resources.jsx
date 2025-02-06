@@ -1,7 +1,7 @@
 import { map_data, map_resource_data } from "../../../../global-components/map-data";
-import { guides_data } from "./guides-data";
-import { tools_data } from "./tools-data";
-import { other_data } from "./other-data";
+import guides_data from "./guides-data";
+import tools_data from "./tools-data";
+import other_data from "./other-data";
 
 
 const guides_data_list = map_resource_data(guides_data);

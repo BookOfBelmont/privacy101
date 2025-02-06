@@ -1,11 +1,11 @@
 import { map_data } from "../../../../global-components/map-data";
-import { security_privacy_anon_data } from "./security-privacy-anon-data";
-import { wireless_connections_data } from "./wireless-connections-data";
-import { modems_networks_data } from "./modems-networks-data";
-import { ip_and_dns_data } from "./ip-and-dns-data";
-import { metadata_data } from "./metadata-data";
-import { cookies_data } from "./cookies-data";
-import { encryption_data } from "./encryption-data";
+import security_privacy_anon_data from "./security-privacy-anon-data";
+import wireless_connections_data from "./wireless-connections-data";
+import modems_networks_data from "./modems-networks-data";
+import ip_and_dns_data from "./ip-and-dns-data";
+import metadata_data from "./metadata-data";
+import cookies_data from "./cookies-data";
+import encryption_data from "./encryption-data";
 
 
 const security_privacy_anon_data_list = map_data(security_privacy_anon_data);

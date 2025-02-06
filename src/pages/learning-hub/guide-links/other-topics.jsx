@@ -1,5 +1,5 @@
 import { map_data } from "../../../global-components/map-data";
-import { other_topics_data } from "./other-topics";
+import other_topics_data from "./other-topics";
 
 const other_topics_data_list = map_data(other_topics_data);
 
