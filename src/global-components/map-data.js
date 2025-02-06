@@ -51,7 +51,7 @@ export function map_resource_data(datum) {
 export function map_card_data(datum) {
     return datum.map((data) =>
         <div className="recommendation-tile">
-            <a className="logo-container" href={data.url}><img className="logo light-shadow" src={data.logo_src} ></img></a>
+            <a className="logo-container" href={data.url}><img className="logo light-shadow" alt="test" src={data.logo_src} ></img></a>
             <p className="recommendation-tag-bin">
                 {data.tags[0] === 1 ? <span className="recommendation-tag">Open source</span> : null }
                 {data.tags[1] === 1 ? <span className="recommendation-tag">Recently audited</span> : null }
