@@ -1,4 +1,4 @@
-import "../styles/favicon.css";
+import "../styles/components/favicon.css";
 import Title from "./title";
 import { ReactComponent as Icon } from "./lock-icon.svg";
 

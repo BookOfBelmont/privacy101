@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/recommendations.css';
+import '../../styles/pages/recommendations.css';
 import Title from "../../global-components/title.jsx";
 import TableOfContents from "./table-of-contents-recommendations.jsx"
 import BeforeWeStart from "./before-we-start.jsx";

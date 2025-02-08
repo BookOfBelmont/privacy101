@@ -1,5 +1,4 @@
-import react from "react";
-import '../styles/page-not-found.css';
+import '../styles/pages/page-not-found.css';
 import Title from "./title";
 
 function PageNotFound() {
