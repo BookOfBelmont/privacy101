@@ -1,5 +1,39 @@
 [
     {
+        "title": "1password",
+        "category": [
+            "password_manager"
+        ],
+        "url": [
+            "https://1password.com/"
+        ],
+        "logo_src": [
+            "src/logos-svg/1password-wordmark.svg"
+        ],
+        "tags": [1, 1, 0, 1, 0],
+        "talking_points": [
+            "Point 1"
+        ]
+    },
+    {
+        "title": "bitwarden",
+        "category": [
+            "password_manager"
+        ],
+        "url": [
+            "https://proton.me/mail"
+        ],
+        "logo_src": [
+            "src/logos-svg/proton-mail-wordmark.svg"
+        ],
+        "tags": [1, 1, 1, 1, 1],
+        "talking_points": [
+            "Includes a calendar, cloud storage, password manager, and VPN with all plans",
+            "Import/export emails and calendars",
+            "Create email aliases"
+        ]
+    },
+    {
         "title": "HERERERE",
         "category": [
             "HERERERE"
@@ -13,24 +47,6 @@
         "tags": [0, 0, 0, 0, 0],
         "talking_points": [
             "HERERERE"
-        ]
-    },
-    {
-        "title": "Bitwarden",
-        "category": [
-            "email"
-        ],
-        "url": [
-            "https://proton.me/mail"
-        ],
-        "logo_src": [
-            "src/logos-svg/proton-mail-wordmark.svg"
-        ],
-        "tags": [1, 1, 1, 1, 1],
-        "talking_points": [
-            "Includes a calendar, cloud storage, password manager, and VPN with all plans",
-            "Import/export emails and calendars",
-            "Create email aliases"
         ]
     }
 ]

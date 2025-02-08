@@ -1,9 +1,9 @@
 import react from "react";
-import { map_card_data } from "../../logos-svg/logos-svg-array";
+import { map_card_data } from "../../logos-svg/map_svg_logos";
 import company_card_db from "./company-card-db.json";
 
 
-const company_card_db_list = map_card_data(company_card_db);
+const password_manager_cards = map_card_data(company_card_db, "password_manager");
 
 
 
@@ -15,7 +15,7 @@ function MostImportantChecklist() {
                 <p className="topic purple-title purple-title2">Harden (secure) devices, apps and accounts</p>
                 <div className="purple-content">
                     <li>Use strong passwords and keep track of them with a password manager</li>
-                    <ul>{company_card_db_list}</ul>
+                    <ul>{password_manager_cards}</ul>
                     <li>Use multi-factor authentication</li>
                     <li>Keep devices and apps updated</li>
                     <li>SIM password</li>
