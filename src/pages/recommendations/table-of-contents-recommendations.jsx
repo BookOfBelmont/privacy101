@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/table-of-contents.css';
+import '../../styles/components/table-of-contents.css';
 
 function TableOfContents() {
     return (

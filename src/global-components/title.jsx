@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/title.css";
+import "../styles/components/title.css";
 import Navigation from "./navigation.jsx"
 
 function Title() {
