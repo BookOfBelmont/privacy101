@@ -1,4 +1,4 @@
-<svg width="208" height="128" viewBox="0 0 208 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className="company-card-logo" width="208" height="128" viewBox="0 0 208 128" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
         <path fill-rule="evenodd" clip-rule="evenodd"
             d="M42.1327 77.6567L29.7886 71.8897C28.7371 71.3862 28.7371 70.6081 29.7886 70.1504L34.0862 68.1365L42.087 71.8897C43.1385 72.3932 44.8301 72.3932 45.8359 71.8897L53.8367 68.1365L58.1343 70.1504C59.1858 70.6539 59.1858 71.432 58.1343 71.8897L45.7902 77.6567C44.8301 78.1144 43.1385 78.1144 42.1327 77.6567Z"
