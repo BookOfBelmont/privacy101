@@ -14,7 +14,7 @@ function Recommendations() {
                 <BeforeWeStart />
             </div>
             <h2 id="recommendations"><a href="#recommendations"></a>Recommendations</h2>
-            <h3 class="listTitle" id="big"><a href="#big"></a>The big checklist</h3>
+            <h3 className="listTitle" id="big"><a href="#big"></a>The big checklist</h3>
 
             <MostImportantChecklist />
 

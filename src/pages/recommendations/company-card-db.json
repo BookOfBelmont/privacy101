@@ -1,6 +1,22 @@
 [
     {
-        "title": "proton-mail",
+        "title": "HERERERE",
+        "category": [
+            "HERERERE"
+        ],
+        "url": [
+            "HERERERE"
+        ],
+        "logo_src": [
+            "HERERERE"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "Bitwarden",
         "category": [
             "email"
         ],
@@ -8,11 +24,13 @@
             "https://proton.me/mail"
         ],
         "logo_src": [
-            "../../logos-svg/proton-mail-wordmark.svg"
+            "src/logos-svg/proton-mail-wordmark.svg"
         ],
         "tags": [1, 1, 1, 1, 1],
         "talking_points": [
-            "Includes a calendar, cloud storage, password manager, and VPN with all plans"
+            "Includes a calendar, cloud storage, password manager, and VPN with all plans",
+            "Import/export emails and calendars",
+            "Create email aliases"
         ]
     }
 ]

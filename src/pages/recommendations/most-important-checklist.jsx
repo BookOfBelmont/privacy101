@@ -1,4 +1,5 @@
-import { map_card_data } from "../../global-components/map-data";
+import react from "react";
+import { map_card_data } from "../../logos-svg/logos-svg-array";
 import company_card_db from "./company-card-db.json";
 
 
@@ -8,11 +9,11 @@ const company_card_db_list = map_card_data(company_card_db);
 
 function MostImportantChecklist() {
     return (
-        <div class="checklist most-important-checklist">
-            <p class="checklistTitle" id="important"><a href="#important"></a>Most important</p>
-            <div class="purple-box purple-box2">
-                <p class="topic purple-title purple-title2">Harden (secure) devices, apps and accounts</p>
-                <div class="purple-content">
+        <div className="checklist most-important-checklist">
+            <p className="checklistTitle" id="important"><a href="#important"></a>Most important</p>
+            <div className="purple-box purple-box2">
+                <p className="topic purple-title purple-title2">Harden (secure) devices, apps and accounts</p>
+                <div className="purple-content">
                     <li>Use strong passwords and keep track of them with a password manager</li>
                     <ul>{company_card_db_list}</ul>
                     <li>Use multi-factor authentication</li>
