@@ -43,10 +43,10 @@ export function map_card_data(datum, category) {
     
     const LogoToRender = "test" === "bitwarden" ? BitwardenWordmark : BraveWordmark;
 
-    const ReturnComponent = datum.filter(datum => datum.category == category).map((data) =>
+    const ReturnComponent = datum.filter(datum => datum.category.includes(category)).map((data) =>
         <div className="recommendation-tile">
-            <a className="logo-container" href={data.url}>
-                <FindCardLogo logo_title={data.title} logo_category={data.category} />
+            <a className="logo-container" href={data.url} target="_blank" rel="noopener noreferrer">
+                <FindCardLogo logo_title={data.title} />
             </a>
             <p className="recommendation-tag-bin">
                 {data.tags[0] === 1 ? <span className="recommendation-tag">Open source</span> : null }
@@ -72,71 +72,71 @@ function map_card_talking_points(datum) {
 
 
 function FindCardLogo(props) {
-    if (props.logo_title === "1password" && props.logo_category == "password_manager") {
+    if (props.logo_title === "1password") {
         return <Password1Wordmark />;
-    } else if (props.logo_title === "addy.io" && props.logo_category == "aliasing") {
+    } else if (props.logo_title === "addy.io") {
         return <AddyWordmark />;
-    } else if (props.logo_title === "bitwarden" && props.logo_category == "password_manager") {
+    } else if (props.logo_title === "bitwarden") {
         return <BitwardenWordmark />;
-    } else if (props.logo_title === "brave" && props.logo_category == "browser") { {/* */}
+    } else if (props.logo_title === "brave") {
         return <BraveWordmark />;
-    } else if (props.logo_title === "cryptee" && props.logo_category == "notes") { {/* */}
+    } else if (props.logo_title === "cryptee") {
         return <CrypteeWordmark />;
-    } else if (props.logo_title === "cryptomator" && props.logo_category == "encryption") {
+    } else if (props.logo_title === "cryptomator") {
         return <CryptomatorWordmark />;
-    } else if (props.logo_title === "cryptpad" && props.logo_category == "collaborative_docs") {
+    } else if (props.logo_title === "cryptpad") {
         return <CryptpadWordmark />;
-    } else if (props.logo_title === "duckduckgo" && props.logo_category == "browser") { {/* */}
+    } else if (props.logo_title === "duckduckgo") {
         return <DuckDuckGoWordmark />;
-    } else if (props.logo_title === "ente" && props.logo_category == "cloud_photos") {
+    } else if (props.logo_title === "ente") {
         return <EnteWordmark />;
-    } else if (props.logo_title === "filen" && props.logo_category == "cloud_drive") {
+    } else if (props.logo_title === "filen") {
         return <FilenWordmark />;
-    } else if (props.logo_title === "hushed" && props.logo_category == "alias") { {/* */}
+    } else if (props.logo_title === "hushed") {
         return <HushedWordmark />;
-    } else if (props.logo_title === "ivpn" && props.logo_category == "vpn") {
+    } else if (props.logo_title === "ivpn") {
         return <IvpnWordmark />;
-    } else if (props.logo_title === "libreoffice" && props.logo_category == "docs") {
+    } else if (props.logo_title === "libreoffice") {
         return <LibreOfficeWordmark />;
-    } else if (props.logo_title === "mullvad_browser" && props.logo_category == "browser") {
+    } else if (props.logo_title === "mullvad_browser") {
         return <MullvadBrowserWordmark />;
-    } else if (props.logo_title === "mullvad_vpn" && props.logo_category == "vpn") {
+    } else if (props.logo_title === "mullvad_vpn") {
         return <MullvadVpnWordmark />;
-    } else if (props.logo_title === "obsidian" && props.logo_category == "notes") {
+    } else if (props.logo_title === "obsidian") {
         return <ObsidianWordmark />;
-    } else if (props.logo_title === "onlyoffice" && props.logo_category == "docs") { {/* */}
+    } else if (props.logo_title === "onlyoffice") {
         return <OnlyofficeWordmark />;
-    } else if (props.logo_title === "proton_calendar" && props.logo_category == "calendar") {
+    } else if (props.logo_title === "proton_calendar") {
         return <ProtonCalendarWordmark />;
-    } else if (props.logo_title === "proton_drive" && props.logo_category == "cloud_drive") {
+    } else if (props.logo_title === "proton_drive") {
         return <ProtonDriveWordmark />;
-    } else if (props.logo_title === "proton_mail" && props.logo_category == "email") {
+    } else if (props.logo_title === "proton_mail") {
         return <ProtonMailWordmark />;
-    } else if (props.logo_title === "proton_pass" && props.logo_category == "password_manager") {
+    } else if (props.logo_title === "proton_pass") {
         return <ProtonPassWordmark />;
-    } else if (props.logo_title === "proton_vpn" && props.logo_category == "vpn") {
+    } else if (props.logo_title === "proton_vpn") {
         return <ProtonVpnWordmark />;
-    } else if (props.logo_title === "searxng" && props.logo_category == "search_engine") {
+    } else if (props.logo_title === "searxng") {
         return <SearxngWordmark />;
-    } else if (props.logo_title === "signal" && props.logo_category == "messenger") {
+    } else if (props.logo_title === "signal") {
         return <SignalWordmark />;
-    } else if (props.logo_title === "simplelogin" && props.logo_category == "alias") { {/* */}
+    } else if (props.logo_title === "simplelogin") {
         return <SimpleLoginWordmark />;
-    } else if (props.logo_title === "standard_notes" && props.logo_category == "notes") {
+    } else if (props.logo_title === "standard_notes") {
         return <StandardNotesWordmark />;
-    } else if (props.logo_title === "startpage" && props.logo_category == "search_engine") {
+    } else if (props.logo_title === "startpage") {
         return <StartpageWordmark />;
-    } else if (props.logo_title === "thunderbird" && props.logo_category == "email_client") {
+    } else if (props.logo_title === "thunderbird") {
         return <ThunderbirdWordmark />;
-    } else if (props.logo_title === "tuta_calendar" && props.logo_category == "calendar") {
+    } else if (props.logo_title === "tuta_calendar") {
         return <TutaCalendarWordmark />;
-    } else if (props.logo_title === "tuta_mail" && props.logo_category == "email") {
+    } else if (props.logo_title === "tuta_mail") {
         return <TutaMailWordmark />;
-    } else if (props.logo_title === "ublock_origin" && props.logo_category == "browser_extensions") {
+    } else if (props.logo_title === "ublock_origin") {
         return <UblockOriginWordmark />;
-    } else if (props.logo_title === "windscribe" && props.logo_category == "vpn") {
+    } else if (props.logo_title === "windscribe") {
         return <WindscribeWordmark />;
     } else {
-        return <p>ERROR!</p>;
+        return <p className="error" >ERROR!</p>;
     }
 }

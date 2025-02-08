@@ -34,6 +34,40 @@
         ]
     },
     {
+        "title": "addy.io",
+        "category": [
+            "password_manager",
+            "aliasing"
+        ],
+        "url": [
+            "https://addy.io/"
+        ],
+        "logo_src": [
+            "src/logos-svg/addy-wordmark.svg"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "brave",
+        "category": [
+            "browser",
+            "search_engine"
+        ],
+        "url": [
+            "https://search.brave.com/"
+        ],
+        "logo_src": [
+            "HERERERE"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
         "title": "HERERERE",
         "category": [
             "HERERERE"
