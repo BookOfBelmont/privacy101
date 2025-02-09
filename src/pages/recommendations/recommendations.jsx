@@ -4,6 +4,8 @@ import Title from "../../global-components/title.jsx";
 import TableOfContents from "./table-of-contents-recommendations.jsx"
 import BeforeWeStart from "./before-we-start.jsx";
 import MostImportantChecklist from "./most-important-checklist.jsx";
+import SecondStepChecklist from "./second-step-checklist.jsx";
+import StealthyDigitalJedi from "./stealthy-digital-jedi.jsx";
 
 function Recommendations() {
     return (
@@ -17,13 +19,11 @@ function Recommendations() {
             <h3 className="listTitle" id="big"><a href="#big"></a>The big checklist</h3>
 
             <MostImportantChecklist />
-
-            {/*second step checklist*/}
+            <SecondStepChecklist />
+            <StealthyDigitalJedi />
             
-            {/*stealthy digital jedi*/}
-            
+            <h3 class="listTitle" id="no-commitment"><a href="#no-commitment"></a>The no-commitment checklist</h3>
             {/*free beginner checklist*/}
-            
             {/*paid upgrades*/}
             
             {/*hardware*/}

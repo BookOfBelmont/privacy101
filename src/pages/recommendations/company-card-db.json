@@ -7,9 +7,6 @@
         "url": [
             "https://1password.com/"
         ],
-        "logo_src": [
-            "src/logos-svg/1password-wordmark.svg"
-        ],
         "tags": [1, 1, 0, 1, 0],
         "talking_points": [
             "Point 1"
@@ -21,10 +18,7 @@
             "password_manager"
         ],
         "url": [
-            "https://proton.me/mail"
-        ],
-        "logo_src": [
-            "src/logos-svg/proton-mail-wordmark.svg"
+            "https://bitwarden.com/"
         ],
         "tags": [1, 1, 1, 1, 1],
         "talking_points": [
@@ -36,14 +30,10 @@
     {
         "title": "addy.io",
         "category": [
-            "password_manager",
             "aliasing"
         ],
         "url": [
             "https://addy.io/"
-        ],
-        "logo_src": [
-            "src/logos-svg/addy-wordmark.svg"
         ],
         "tags": [0, 0, 0, 0, 0],
         "talking_points": [
@@ -59,8 +49,18 @@
         "url": [
             "https://search.brave.com/"
         ],
-        "logo_src": [
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
             "HERERERE"
+        ]
+    },
+    {
+        "title": "control-d",
+        "category": [
+            "dns"
+        ],
+        "url": [
+            "https://controld.com/"
         ],
         "tags": [0, 0, 0, 0, 0],
         "talking_points": [
@@ -68,15 +68,407 @@
         ]
     },
     {
-        "title": "HERERERE",
+        "title": "cryptee",
         "category": [
-            "HERERERE"
+            "notes",
+            "cloud_photo"
         ],
         "url": [
-            "HERERERE"
+            "https://crypt.ee/"
         ],
-        "logo_src": [
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
             "HERERERE"
+        ]
+    },
+    {
+        "title": "cryptomator",
+        "category": [
+            "encryption"
+        ],
+        "url": [
+            "https://cryptomator.org/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "cryptpad",
+        "category": [
+            "collaborative_docs"
+        ],
+        "url": [
+            "https://cryptpad.org/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "duckduckgo",
+        "category": [
+            "search_engine"
+        ],
+        "url": [
+            "https://duckduckgo.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "ente",
+        "category": [
+            "cloud_photo",
+            "mfa"
+        ],
+        "url": [
+            "https://ente.io/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "filen",
+        "category": [
+            "cloud_storage",
+            "cloud_photo"
+        ],
+        "url": [
+            "https://filen.io/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "hushed",
+        "category": [
+            "aliasing"
+        ],
+        "url": [
+            "https://hushed.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "ivpn",
+        "category": [
+            "vpn"
+        ],
+        "url": [
+            "https://www.ivpn.net/en/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "libreoffice",
+        "category": [
+            "docs"
+        ],
+        "url": [
+            "https://www.libreoffice.org/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "mullvad_browser",
+        "category": [
+            "browser"
+        ],
+        "url": [
+            "https://mullvad.net/en/browser"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "mullvad_dns",
+        "category": [
+            "dns"
+        ],
+        "url": [
+            "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "mullvad_vpn",
+        "category": [
+            "vpn"
+        ],
+        "url": [
+            "https://mullvad.net/en/vpn"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "next_dns",
+        "category": [
+            "dns"
+        ],
+        "url": [
+            "https://nextdns.io/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "obsidian",
+        "category": [
+            "notes"
+        ],
+        "url": [
+            "https://obsidian.md/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "onlyoffice",
+        "category": [
+            "docs",
+            "collaborative_docs"
+        ],
+        "url": [
+            "https://www.onlyoffice.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "proton_calendar",
+        "category": [
+            "calendar"
+        ],
+        "url": [
+            "https://proton.me/calendar"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "proton_drive",
+        "category": [
+            "cloud_storage",
+            "cloud_photo"
+        ],
+        "url": [
+            "https://proton.me/drive"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "proton_mail",
+        "category": [
+            "email"
+        ],
+        "url": [
+            "https://proton.me/mail"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "proton_pass",
+        "category": [
+            "password_manager"
+        ],
+        "url": [
+            "https://proton.me/pass"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "proton_vpn",
+        "category": [
+            "vpn"
+        ],
+        "url": [
+            "https://protonvpn.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "quad9",
+        "category": [
+            "dns"
+        ],
+        "url": [
+            "https://quad9.net/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "searxng",
+        "category": [
+            "search_engine"
+        ],
+        "url": [
+            "https://docs.searxng.org/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "signal",
+        "category": [
+            "messenger"
+        ],
+        "url": [
+            "https://signal.org/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "simple_login",
+        "category": [
+            "aliasing"
+        ],
+        "url": [
+            "https://simplelogin.io/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "standard_notes",
+        "category": [
+            "notes"
+        ],
+        "url": [
+            "https://standardnotes.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "startpage",
+        "category": [
+            "search_engine"
+        ],
+        "url": [
+            "https://www.startpage.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "thunderbird",
+        "category": [
+            "email_client"
+        ],
+        "url": [
+            "https://www.thunderbird.net/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "tuta_calendar",
+        "category": [
+            "calendar"
+        ],
+        "url": [
+            "https://tuta.com/calendar"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "tuta_mail",
+        "category": [
+            "email"
+        ],
+        "url": [
+            "https://tuta.com/secure-email"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "ublock_origin",
+        "category": [
+            "ad_blocker"
+        ],
+        "url": [
+            "https://ublockorigin.com/"
+        ],
+        "tags": [0, 0, 0, 0, 0],
+        "talking_points": [
+            "HERERERE"
+        ]
+    },
+    {
+        "title": "windscribe",
+        "category": [
+            "vpn"
+        ],
+        "url": [
+            "https://windscribe.com/"
         ],
         "tags": [0, 0, 0, 0, 0],
         "talking_points": [
