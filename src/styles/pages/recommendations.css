@@ -191,11 +191,9 @@ a:hover {
 	transform: scale(1.1);
 }
 .company-card-logo {
-	height: 3rem;
+	height: 100%;
 	width: fit-content;
 	object-fit: contain;
-	pointer-events: none;
-	margin: 0.5rem 0.5rem 0 0.5rem;
 }
 
 
