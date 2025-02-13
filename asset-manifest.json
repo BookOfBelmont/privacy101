@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/privacy101/static/css/main.8ec2a933.css",
-    "main.js": "/privacy101/static/js/main.ffab1ed3.js",
+    "main.js": "/privacy101/static/js/main.75a148c4.js",
     "static/js/488.96a6e568.chunk.js": "/privacy101/static/js/488.96a6e568.chunk.js",
     "static/media/ente-ducky.png": "/privacy101/static/media/ente-ducky.2fc8e40f4bafb17af909.png",
     "static/media/cryptomator-wordmark.svg": "/privacy101/static/media/cryptomator-wordmark.356f42bbe220c8d8c92bc93f237a0bcf.svg",
@@ -31,7 +31,7 @@
     "static/media/signal-wordmark.svg": "/privacy101/static/media/signal-wordmark.27d09493dfc78475aaec91c1403a41f7.svg",
     "static/media/mullvad-vpn-wordmark.svg": "/privacy101/static/media/mullvad-vpn-wordmark.25bfd15bbbe40fe647730044d14eb7ea.svg",
     "static/media/searxng-wordmark.svg": "/privacy101/static/media/searxng-wordmark.8be7f99167f31342fe830e108df79d87.svg",
-    "static/media/brave-wordmark.svg": "/privacy101/static/media/brave-wordmark.1aad6d68662b8e5d63dfc659c163ab77.svg",
+    "static/media/brave-wordmark.svg": "/privacy101/static/media/brave-wordmark.0496d170ac2bfb7b3231c0f6eea68289.svg",
     "static/media/ente-wordmark.svg": "/privacy101/static/media/ente-wordmark.f140cac938a5235b3383c9729c740db8.svg",
     "static/media/cryptee-wordmark.svg": "/privacy101/static/media/cryptee-wordmark.b02b7b4bf75b9f794a428a25660dbe8c.svg",
     "static/media/ivpn-wordmark.svg": "/privacy101/static/media/ivpn-wordmark.ecb4304ab70d5c72745be2a1ca52d02e.svg",
@@ -43,11 +43,11 @@
     "static/media/ublock-origin-wordmark.svg": "/privacy101/static/media/ublock-origin-wordmark.b27c6af25433c699e67d316a9c9f590a.svg",
     "index.html": "/privacy101/index.html",
     "main.8ec2a933.css.map": "/privacy101/static/css/main.8ec2a933.css.map",
-    "main.ffab1ed3.js.map": "/privacy101/static/js/main.ffab1ed3.js.map",
+    "main.75a148c4.js.map": "/privacy101/static/js/main.75a148c4.js.map",
     "488.96a6e568.chunk.js.map": "/privacy101/static/js/488.96a6e568.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ec2a933.css",
-    "static/js/main.ffab1ed3.js"
+    "static/js/main.75a148c4.js"
   ]
 }
